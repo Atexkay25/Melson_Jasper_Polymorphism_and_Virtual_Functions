@@ -13,11 +13,11 @@ public:
     int getYearBuilt() const;
 
     // Setters
-    void setManufacturer(const std::string& newManufacturer);
-    void setYearBuilt(int newYearBuilt);
+    void setManufacturer(const std::string& manufacturer);
+    void setYearBuilt(int yearBuilt);
 
     // Display information
-    void displayInfo() const;
+    virtual void displayInfo() const;
 
 private:
     // Member variables
